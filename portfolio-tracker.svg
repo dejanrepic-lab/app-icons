@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Portfolio Tracker</title>
+  <desc id="desc">Navy app icon with a white P and green portfolio growth chart.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#173a66"/>
+      <stop offset="1" stop-color="#071a33"/>
+    </linearGradient>
+    <linearGradient id="growth" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#14b8a6"/>
+      <stop offset="1" stop-color="#4ade80"/>
+    </linearGradient>
+  </defs>
+  <rect x="20" y="20" width="472" height="472" rx="108" fill="url(#bg)"/>
+  <rect x="20" y="20" width="472" height="472" rx="108" fill="none" stroke="#315789" stroke-width="4"/>
+  <path d="M138 385V130h109c88 0 145 48 145 128 0 79-57 129-145 129h-45v-61h42c48 0 77-23 77-68 0-43-29-66-77-66h-42v193z" fill="#fff"/>
+  <rect x="210" y="320" width="34" height="65" rx="7" fill="url(#growth)"/>
+  <rect x="260" y="286" width="34" height="99" rx="7" fill="url(#growth)"/>
+  <rect x="310" y="246" width="34" height="139" rx="7" fill="url(#growth)"/>
+  <path d="M205 302l65-63 39 31 77-83" fill="none" stroke="url(#growth)" stroke-width="19" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M363 188l31-6-5 31" fill="none" stroke="#4ade80" stroke-width="17" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
